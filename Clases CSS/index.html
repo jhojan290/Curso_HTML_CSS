@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enlazando CSS</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--la etiqueta link sirve para vincular un archivo-->
+    <!--Se usa el atributo rel que viene de la palabra relationship para indicar que tipo de archivo es el que vamos a vincular a nuestra página. En este caso es stylesheet que significa hoja de estilos-->
+    <!--es otra etiqueta que se cierra sola-->
+    <!--Esta es la forma recomendada para conectar una hoja de estilos CSS-->
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p id="p1" style="color:red;font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto omnis suscipit sit totam iste, fugiat neque fugit quae nesciunt ea, quia minima nemo error ad. Alias voluptates obcaecati ad accusamus.</p>
+    <!--el atributo style indica que son estilos en línea-->
+    <!--Esto es una mala practica ya que ambos lenguajes deben estar por separado-->
+
+    <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto omnis suscipit sit totam iste, fugiat neque fugit quae nesciunt ea, quia minima nemo error ad. Alias voluptates obcaecati ad accusamus.</p>
+    
+    <p id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto omnis suscipit sit totam iste, fugiat neque fugit quae nesciunt ea, quia minima nemo error ad. Alias voluptates obcaecati ad accusamus.</p>
+
+    <style>
+        #p2{
+            color:green
+        }
+    </style>
+    <!--style también funciona como etiqueta y se pueden usar las propiedades CSS solo que sigue siendo una mala practica ya que los lenguajes deben estar en archivos por separado-->
+</body>
+</html>
