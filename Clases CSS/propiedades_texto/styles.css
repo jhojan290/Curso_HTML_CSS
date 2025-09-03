@@ -1,0 +1,61 @@
+p{
+    color:red;
+    font-family:sans-serif; /*se utiliza para cambiar el tipo de letra*/
+    font-family:'Franklin Gothic Medium'; /* se utilizan comillas cuando el tipo de letra contiene un nombre con más de una palabra. Cuando es una sola palabra no es necesario ponerlas*/
+    font-family:'Courier New', Courier, monospace;
+    /*También se pueden utilizar varios tipos de letras separados por comas, esto es para que en caso tal de que el navegador no logre cargar la primera tipografia vaya a la segunda e intente con esa y así sucesivamente*/
+    font-size: 13px; /*Cambiar el tamaño de la letra*/
+    font-weight: bold; /*para cambiar el grosor de la letra, poner en negrita la letra, usar esto antes que la etiqueta <b>*/
+    /*Esta etiqueta se mide con valores que van de 100 a 900 para el grosor, hay tipografias que cambian por cada escala pero hay otras que no*/
+    /*al decir bold estamos indicando que el grosor será de 700*/
+    font-weight: bolder;
+    /*Y al decir bolder estamos diciendo que el grosor va a estar una escala por encima del bold*/
+    font-style: italic; 
+    /*Cambia el estilo de la letra, en este caso italic la pondrá en cursiva*/
+    font-style:oblique 40deg;
+    /*oblique indica que es cursiva, pero no tan inclinada como la italic*/
+    /*En versiones futuras se podrá inclinar la letra a gusto por medio de la palabra deg*/
+    text-align: center;
+    /*la etiqueta text-align funciona dentro de elementos en bloque, para ubicar en el centro, izquierda o derecha el texto, OJO, no funciona con elementos que sean lineales*/
+    text-align: justify;
+    /*alinea el texto de modo que ocupe todo el ancho disponible, ajustando los espacios entre palabras para que los bordes izquierdo y derecho queden alineados.*/
+    text-align:start;
+    text-align:end;
+
+    /*left / right → alinean el texto siempre a la izquierda o a la derecha, sin importar el idioma.
+    start / end → alinean el texto al inicio o al final según la dirección de escritura (izquierda en LTR, derecha en RTL).*/
+
+    text-decoration: underline; 
+    /*para subrayar el texto, underline pone la línea por debajo*/
+
+    text-decoration: overline;
+    /*para subrayar la parte de arriba del texto*/
+
+    text-decoration: line-through;
+    /*Tacha el texto, pone la línea por toda la mitad*/
+
+    text-decoration: underline overline line-through;
+    /*pueden juntarse tres tipos o dos*/
+
+    text-decoration: none;
+
+    /*Sirve para quitar el subrayado de alguna palabra*/
+
+    line-height: 2;
+    /*altura de la línea*/
+    /*Define la distancia o espaciado que hay entre línea y línea, esta se mide con números de un solo dígito o decimales, también funciona con porcentajes*/
+
+    letter-spacing: 1px;
+
+    /*Sirve para separar las letras entre sí, se mide con px*/
+
+    text-transform: uppercase;
+
+    /*Sirve para modificar al texto a solo mayusculas o solo minusculas*/
+
+    text-transform: lowercase;
+
+    text-transform: capitalize;
+
+    /*Pone la primera letra como mayuscula de todas las palabras*/
+}

@@ -1,0 +1,29 @@
+@font-face{
+    font-family:'Libertinus_Keyboard';
+    src:url("fonts/LibertinusKeyboard-Regular.ttf") format("truetype");
+    font-weight:400;
+}
+
+@font-face{
+    font-family:Roboto;
+    src:url("fonts/Roboto_Condensed-Light.ttf") format("truetype");
+    font-weight:300;
+}
+
+@font-face{
+    font-family:Roboto;
+    src:url("fonts/Roboto-ExtraBold.ttf") format("truetype");
+    font-weight:800;
+}
+
+/*@font-face: Es una regla de CSS que permite definir fuentes personalizadas que no están instaladas en el sistema del usuario.*/
+
+/*font-family: Roboto;
+Le das un nombre a la fuente para usarla después en tu CSS. Aquí la llamamos "Roboto".*/
+
+/*src: url("fonts/Roboto-ExtraBold.ttf") format("truetype");
+Indica de dónde cargar el archivo de la fuente.*/
+
+/*format("truetype") → le dice al navegador el formato de la fuente (truetype, woff, woff2, etc.) para mejorar compatibilidad.*/
+
+/*"Este código carga la fuente personalizada Roboto en su versión ExtraBold (800) desde un archivo TrueType, y la prepara para ser usada en el sitio web."*/
