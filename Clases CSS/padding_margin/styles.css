@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    /*con esta propiedad modifico todo el documento html por medio de un asterisco*/
+}
+
+
+.formulario{
+    background: red;
+    padding: 30px;
+    /*padding separa el contenido de los bordes*/
+    /*Al utilizar padding solo, se modificaran todos los lados (arriba,derecha,izquierda,abajo)*/
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:30px;
+    padding-right:30px; 
+    /*Al utilizar padding de este manera, estamos modificando un solo lado a la vez*/
+
+    padding: 30px 30px 30px 30px;
+
+    /*Al utilizar padding de esta manera estamos modificando todos los lados en el sentido horario, osea arriba, derecha, abajo, izquierda*/
+
+    padding: 30px 30px;
+    /*Al utilizar padding de esta manera solo estamos cambiando el lado vertical primero y luego el lado horizontal*/
+
+}
+
+.formulario_input{
+    padding:6px 10px;
+    width: 90%; 
+    background: black;
+    /*background y background-color son lo mismo*/
+    color:red;
+    /*modifica el color de la letra*/
+    margin:10px;
+}
+
+.formulario_submit{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: white;
+    color:black;
+    width: 50%;
+}
+
+.box{
+    background: red;
+    padding:50px;
+    width: 150px;
+    height: 150px;
+    margin:30px;
+}
+
+/*los margenes se colapsan, es decir se superponen, no se suman*/
+/*En el caso de que el margin vertical o horizontal de una caja se crucen y supiendo que un margen sea más grande que el otro, el margen que se queda es el más grande, no se suman*/
+
+

@@ -1,0 +1,25 @@
+body{
+    margin:0;
+}
+
+.box{
+    width:100px;
+    height: 100px;
+    background: red;
+    margin:10px;
+    /*las cajas tendrán un tamaño de 100px cada una*/
+}
+
+.box-default{
+    box-sizing: content-box;
+    /*Cuando se define esta propiedad en content-box quiere decir que el contenido se mantendrá en 100px como se estipulo inicialmente, pero, cuando se le sume padding,border y margi. El tamaño de la caja va a aumentar, quedando en una caja de más de 100px*/
+    padding:25px;
+    border:10px solid black;
+}
+
+.box-new{
+    box-sizing: border-box;
+    /*Cuando se usa una caja con border-box quiere decir que el contenido se va adaptar al tamaño original de la caja cuando se le suman tanto padding como border, esto quiere decir que padding y border hacen que el contenido cambie su tamaño, para que en conjunto cumplan con el tamaño original de la caja*/
+    padding:25px;
+    border:10px solid black;
+}

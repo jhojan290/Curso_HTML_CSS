@@ -1,0 +1,21 @@
+div{
+    background: red;
+    width: 300px;
+    height:100px;
+    /*para que aparezca la caja con el color se deben definir width y height*/
+    /*width y height que son ancho y alto respectivamente sirven para definir el tamaño de los elementos. Se pueden manipular con medidas en px y porcentajes*/
+}
+
+h1{
+    background: blue;
+}
+
+input{
+    width:90%;
+}
+
+form{
+    width:400px;
+}
+
+/*Al definir el tamaño de una caja, los elementos dentro de ella se adaptarán al tamaño de esta, quiere decir que si por ejemplo tengo una etiqueta form con el espacio especificado en el ejemplo y tengo inputs dentro de ella, los inputs modificarán su tamaño según el tamaño que tenga la caja padre*/

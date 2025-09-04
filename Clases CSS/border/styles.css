@@ -1,0 +1,72 @@
+div{
+    background: red;
+    width:200px;
+    margin:auto;
+    text-align: center;
+
+    border-width: 5px;
+    /*border-width cambia el tamaño del borde en todos los lados*/
+    border-color:black;
+    /*border-color modifica el color del borde*/
+    border-style:solid;
+    /*border-style modifica el estilo del borde, en este caso solid es el más usado*/
+    
+    /*none → sin borde (valor por defecto).
+
+    solid → línea continua.
+
+    dashed → línea discontinua (guiones).
+
+    dotted → línea de puntos.
+
+    double → doble línea paralela.
+
+    groove → borde con efecto de relieve (depende del color).
+
+    ridge → borde en relieve inverso (opuesto a groove).
+
+    inset → efecto de estar hundido.
+
+    outset → efecto de estar elevado.
+
+    hidden → como none, pero se usa en tablas (puede tener comportamiento distinto con border-collapse). Oculta el borde pero sigue estando*/
+
+    border-radius:8px;
+
+    /*border-radius redondea los bordes del elemento, en pixeles solo redondea las esquinas, mientras que con porcentajes redondea de las esquinas hacia el centro*/
+
+    border: 3px solid black;
+
+    /*border también funciona de esta manera, primero se define el tamaño, después el estilo y por último el color*/
+
+    border-top: 3px;
+    border-bottom:3px;
+    border-left: 3px;
+    border-right:3px;
+
+    /*para cambiar un solo lado también se puede hacer de esta manera*/
+
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: black;
+
+    /*también se puede de esta manera para aplicar a un solo lado todos los componentes*/
+
+    border-top:3px solid black;
+    /*para evitar todo el codigo anterior, solo con esto se puede cambiar un solo lado*/
+
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    /*para modificar una sola esquina con border-radius*/
+
+    border-radius: 10px 10px;
+
+    /*de manera simplificada si solo se colocan dos valores, el borde se modificara en diagonal, primero la diagonal de arriba a la izquierda, con la de abajo a la derecha y después la de arriba a la derecha con la de abajo a la izquierda*/
+
+    border-radius: 10px 10px 10px 10px;
+
+    /*de esta manera se modifican todas las esquinas con una sola línea de código, primero se modifica arriba a la izquerda, luego arriba a la derecha, después abajo a la derecha y por último abajo a la izquierda, siendo también en la forma de sentido horario*/
+}
