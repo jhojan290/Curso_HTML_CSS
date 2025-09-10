@@ -1,0 +1,34 @@
+.circulo {
+    width: 30vmin;       /* lado proporcional al más pequeño del viewport */
+    height: 30vmin;
+    border-radius: 50%;  
+    background: red;
+}
+
+.fondo {
+    width: 100vmax;
+    height: 100vmax;
+    background: orange;
+}
+
+h1 {
+    font-size: 10vmax;  /* depende del lado más grande del viewport */
+    text-align: center;
+    background: lightblue;
+}
+
+.tarjeta {
+    width: 50vmin;   /* proporcional al más pequeño */
+    height: 70vmin;  /* también proporcional */
+    background: purple;
+    color: white;
+    padding: 5vmin;
+}
+
+.caja {
+    width: 60vmin;  
+    height: 20vmax; 
+    background: red;
+}
+
+/**Las unidades vmin y vmax se basan en el viewport: 1vmin equivale al 1% del lado menor (ancho o alto) y 1vmax al 1% del lado mayor. Para calcular su tamaño en píxeles, tomas la dimensión correspondiente y la divides entre 100; por ejemplo, si el viewport mide 1200px × 800px, entonces 1vmin = 800/100 = 8px y 1vmax = 1200/100 = 12px. Así, 20vmin = 160px y 20vmax = 240px. Al rotar la pantalla (por ejemplo, a 800px × 1200px), las unidades se actualizan: ahora el menor lado es 800 y el mayor 1200, por lo que vmin se mantiene en 8px y vmax en 12px, aunque cambie la orientación. Esto significa que vmin se adapta siempre al lado más corto y vmax al más largo, garantizando que el tamaño del elemento reaccione a la forma de la pantalla./

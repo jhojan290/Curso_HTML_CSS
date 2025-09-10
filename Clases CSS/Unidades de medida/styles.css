@@ -1,0 +1,35 @@
+div{
+    background: #ededed;
+    font-family: sans-serif;
+    border-left:5px solid #999;
+    width:400px;
+    font-size:400px;
+}
+
+h1{
+    margin:0;
+    font-size:10%;
+    /*con el tamaño de las letras actúa de una manera diferente, para el font-size ser definido en un tamaño con porcentajes debe existir un font-size también en la caja padre o contenedora.Tomando el 10% en este caso de 400px que sería igual a decir que la letra tendrá un tamaño de 40px con respecto a la caja padre.*/
+    margin-bottom:50%;
+    margin-left: 50%;
+    /*los margenes con porcentajes de los elementos hijos se moveran con respecto al ancho de la caja padre, NO con respecto al alto de la caja padre,siempre será con el ancho en todas las posiciones*/
+}
+
+span{
+    color:#999;
+    font-size:16px;
+    font-weight:100;
+}
+
+p{
+    color:#555;
+    background-color: red;
+    margin: 0;
+    width: 50%;
+    /*Los porcentajes funcionan con respecto a su caja padre, es decir, que se adaptan según el tamaño que tenga la caja padre como por ejemplo un div que tenga 400px y dentro tenga un bloque p con el 50% del tamaño del padre, el elemento p tendrá un tamaño de 200px, osea el 50%*/
+    font-size: 14px;
+}
+
+/*Unidades de medida absolutas px,cm,in,mm se usan para impresiones pero presentan problemas en diseños responsive*/
+
+/*Los porcentajes son unidades de medida relativas*/

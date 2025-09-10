@@ -1,0 +1,31 @@
+.box{
+    width: 100px;
+    height:100px;
+    background: rgb(255,100,240);
+    /*el rgb significa (red,green,blue) el primer número nos da 256 tipos de rojo, el segundo 256 tipos de verdes y el último 256 tipos de azules. Para lograr un color estos 3 valores se combinan a gusto*/
+    margin:20px;
+}
+
+.box1{
+    width: 100px;
+    height:100px;
+    background: rgba(17, 30, 211, 0.377);
+    /*el rgba es el mismo del ejemplo de arriba, con la adición de la letra a, que significa alpha y maneja la opacidad del color, sus valores van de 0 a 1*/
+    margin:20px;
+}
+
+.box2{
+    width: 100px;
+    height:100px;
+    background: #f00;
+    /*También tiene el mismo principio de (red,green,blue) solo que en este se maneja un sistema hexadecimal, osea de 16 colores, estos colores van del 1 al 9 y despues de este de la "a" a la "f". Los primeros dos números son para los diferentes rojos, el primer número indica el tipo de rojo a usar y el segundo el tipo de rojo que se selecciono en el primero pero más a detalle, osea las diferentes gamas de color que tiene, lo mismo pasa con el verde y el azul. También se puede simplificar a solo 3 números en vez de 6, ya que con solo poner un número ya estoy indicando el color que quiero sin dar tanto detalle. Se puede añadir un cuarto valor que es la opacidad, esta también se manipula con los 16 números*/
+    margin:20px;
+}
+
+.box3{
+    width: 100px;
+    height:100px;
+    background: hsl(0, 100%, 50%, 0.5);
+    /*Este sistema también puede tener 4 valores, siendo el 4 también la opacidad que va del 0 al 1. La diferencia de este con los otros sistemas, es que el primer valor asigna el color (existe una paleta de colores en grados para esto), el segundo valor modifica la saturación y el tercer valor modifica la iluminación. Este sistema va de 0 a 360 en su primer valor y tanto saturación como iluminación que son 2 y 3 valor respectivamente se manejan con porcentajes del 1 al 100*/
+    margin:20px;
+}

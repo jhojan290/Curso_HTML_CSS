@@ -1,0 +1,43 @@
+html{
+    font-size:20px;
+}
+
+body{
+    margin:0;
+}
+
+div{
+    background: #ededed;
+    padding:20px;
+    font-family:sans-serif;
+    border-left:5px solid #999;
+    font-size:20px;
+    width:80vw;
+    height: 80vh;
+    margin:0;
+    box-sizing: border-box;
+    margin:auto;
+    margin-top: 10vh;
+
+    /*el viewport height y viewport width son medidas que se adaptan según el tamaño total de la ventana, se usan para ventanas modales y ayudan al diseño responsive ya que estas medidas se adaptan a los tamaños que vaya presentando la ventana*/
+}
+
+h1{
+    margin:0;
+    /*font-size:23px;*/
+    
+}
+
+span{
+    color:#999;
+    font-size:16px;
+    font-weight:100;
+    font-size: 1rem;
+    /*rem va a actuar según el tamaño del font-size del elemento raiz, que es la etiqueta HTML que contiene todo. Quiere decir que si a HTML le definimos un font-size de 40px, 1rem va a tener el valor de 40px y 2rem el doble y asi sucesivamente*/
+}
+
+p{
+    color:#555;
+    font-size:1em;
+    /*em va actuar según el tamaño del font-size del elemento padre, si en la caja padre font-size tiene un valor de 60px, 1em tendrá este valor y 2em el doble y así sucesivamente. Tiene una particularidad y es que si el elemento padre no tiene la propiedad font-size definida, va a buscar al elemento padre de su elemento padre para encontrar un font-size, ira escalando hasta encontrar un font-size */
+}
