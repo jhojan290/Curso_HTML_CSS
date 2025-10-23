@@ -33,3 +33,9 @@ p{
 /*Unidades de medida absolutas px,cm,in,mm se usan para impresiones pero presentan problemas en diseños responsive*/
 
 /*Los porcentajes son unidades de medida relativas*/
+
+/*La unidad de medida absoluta hace referencia a que no depende de otro elemento para cambiar su tamaño, quiere decir que su tamaño será fijo*/
+
+/*La unidad de medida px es absoluta y solo se usa para cambiar el tamaño de texto, en los margins-paddings-borders y imagenes*/
+
+/*La unidad de medida relativa quiere decir que si depende de otro elemento para cambiar su tamaño y son usadas para diseños responsive, estas son vmax,vmin, vh, vw, porcentajes, em y rem (estas dos últimas usadas para la tipografia)*/

@@ -13,7 +13,7 @@ body{
     margin-top:20px;
 }
 
-h1{
+.programador{
     padding-top:10px;
     font-size: 22px;
     margin:0;
@@ -34,6 +34,39 @@ p{
 
 /*los elementos div no cuentan con un margen predeterminado, mientras que los elementos "h" o "p" si, siendo este de 20px para top y bottom*/
 
-/*En CSS, los márgenes verticales de elementos en bloque pueden colapsar, es decir, fusionarse en un solo margen; esto ocurre entre hermanos (queda el mayor) y también entre un hijo y su contenedor: si el hijo es el primer o último bloque y el padre no tiene padding, border ni overflow, entonces el margin-top o margin-bottom del hijo “se sale” y se aplica como si fuera del padre; para evitarlo basta con añadir padding, borde o overflow al contenedor, o usar modelos como flex o grid, donde los márgenes no colapsan.*/
+/*En CSS, los márgenes verticales de elementos en bloque pueden colapsar, es decir, fusionarse en un solo margen; esto ocurre entre hermanos (queda el mayor) y también entre un hijo y su contenedor: si el hijo es el primer o último bloque y el padre no tiene padding, border ni overflow, entonces el margin-top o margin-bottom del hijo “se sale” y se aplica como si fuera del padre; para evitarlo basta con añadir padding, border o overflow al contenedor, o usar modelos como flex o grid, donde los márgenes no colapsan.*/
 
 /*margin collapse*/
+
+
+/*trucos para evitar el margin collapse*/
+
+.padre {
+    display: flex; /* crea una barrera */
+    background-color: aquamarine;
+}   
+
+/* o */
+.padre {
+    border-top: 1px solid transparent;
+    background-color: aquamarine;
+}
+
+/* o */
+.padre {
+    overflow: hidden;
+    background-color: aquamarine;
+}
+
+
+.padre {
+    background-color: aquamarine;
+    padding-top: 1px; /* crea una barrera */
+}
+
+
+.prueba{
+    color:blue;
+}
+
+

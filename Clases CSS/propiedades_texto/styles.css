@@ -58,4 +58,15 @@ p{
     text-transform: capitalize;
 
     /*Pone la primera letra como mayuscula de todas las palabras*/
+
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+
+    /* 
+    text-shadow: desplazamientoX desplazamientoY desenfoque color;
+    desplazamientoX → qué tanto se mueve la sombra horizontalmente (derecha/izquierda)
+    desplazamientoY → qué tanto se mueve la sombra verticalmente (arriba/abajo)
+    desenfoque → qué tan difusa o nítida es la sombra (opcional)
+    color → el color de la sombra
+  */
+
 }

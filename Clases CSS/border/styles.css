@@ -66,6 +66,9 @@ div{
 
     /*de manera simplificada si solo se colocan dos valores, el borde se modificara en diagonal, primero la diagonal de arriba a la izquierda, con la de abajo a la derecha y después la de arriba a la derecha con la de abajo a la izquierda*/
 
+    border-radius: 10px 10px 10px;
+    /*De esta manera se modifica el sector 1, después sector 2 y sector 3 se modifican a la par, el sector 4 es el último en modificarse y es independiente al igual que el sector 1*/
+
     border-radius: 10px 10px 10px 10px;
 
     /*de esta manera se modifican todas las esquinas con una sola línea de código, primero se modifica arriba a la izquerda, luego arriba a la derecha, después abajo a la derecha y por último abajo a la izquierda, siendo también en la forma de sentido horario*/
