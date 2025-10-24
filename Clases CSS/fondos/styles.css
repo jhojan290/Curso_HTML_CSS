@@ -27,6 +27,9 @@ body{
     background-position: 100px -100px;
     /*También se pueden utilizar coordenadas, la primera es para mover el elemento hacia la derecha o hacia la izquierda y la segunda para mover el elemento hacia arriba o hacia abajo*/
 
+    background-position: 100px -100px top;
+    /*También se pueden utilizar coordenadas con una dirección en especifico al final*/
+
     /*también las coordenadas se pueden usar combinadas con las palabras center, top,etc.*/
 
     background-repeat: no-repeat;

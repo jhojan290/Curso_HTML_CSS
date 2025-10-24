@@ -1,0 +1,8 @@
+.box-prueba{
+    width:200px;
+    height:200px;
+    background-color: black;
+    background-image: url(../../../img/c4c29dce3b5c464b0fb348e1298c6376.jpg);
+    background-size: cover;
+    background-position: center;
+}
